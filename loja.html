@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dead Physicist Society | Loja</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>DEAD PHYSICIST SOCIETY</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="seminarios.html">Seminários</a>
+        <a href="loja.html">Loja</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Lojinha Científica</h2>
+      <div class="grid-editorial" style="margin-top: 40px">
+        <div class="card-editorial">
+          <div class="img-placeholder">
+            <img
+              src="https://m.media-amazon.com/images/I/613ne+Q+GPL._AC_SX679_.jpg"
+              alt="Caneca Gato de Schrodinger"
+            />
+          </div>
+          <h3>Caneca Gato de Schrodinger</h3>
+          <div class="detalhes">
+            <span>Caneca Gato de Schrodinger</span>
+            <span>VALOR: R$ 60,00</span>
+          </div>
+          <a
+            href="https://a.co/d/0g6lARqn"
+            target="_blank"
+            class="btn"
+            style="display: inline-block; margin-top: 15px; text-align: center"
+            >Adquirir</a
+          >
+        </div>
+
+        <div class="card-editorial">
+          <div class="img-placeholder">
+            <img
+              src="https://m.media-amazon.com/images/I/51IbKmMpVsL._AC_.jpg"
+              alt="Camiseta do Einstein"
+            />
+          </div>
+          <h3>Camiseta Einstein</h3>
+          <div class="detalhes">
+            <span>Camiseta do Albert Einstein</span>
+            <span>VALOR: R$ 59,90</span>
+          </div>
+          <a
+            href="https://a.co/d/0dVP3KNC"
+            target="_blank"
+            class="btn"
+            style="display: inline-block; margin-top: 15px; text-align: center"
+            >Adquirir</a
+          >
+        </div>
+
+        <div class="card-editorial">
+          <div class="img-placeholder">
+            <img
+              src="https://m.media-amazon.com/images/I/61w4BMzc0LL._SL1400_.jpg"
+              alt="Griffiths"
+            />
+          </div>
+          <h3>Mecânica Quântica</h3>
+          <div class="detalhes">
+            <span>David J. Griffiths</span>
+            <span>VALOR: R$ 268,00</span>
+          </div>
+          <a
+            href="https://a.co/d/0efGB3da"
+            target="_blank"
+            class="btn"
+            style="display: inline-block; margin-top: 15px; text-align: center"
+            >Adquirir</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        DATA: <span id="data-atual"></span> / IDADE DO COSMOS: ~13.8 BILHÕES DE
+        ANOS / UFCAT
+      </p>
+      <script>
+        const hoje = new Date();
+        const dataFormatada = hoje.toLocaleDateString("pt-BR");
+        document.getElementById("data-atual").innerText = dataFormatada;
+      </script>
+    </footer>
+  </body>
+</html>

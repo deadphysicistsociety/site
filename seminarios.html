@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dead Physicist Society | Seminários</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>DEAD PHYSICIST SOCIETY</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="seminarios.html">Seminários</a>
+        <a href="loja.html">Loja</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Nossos Seminários</h2>
+      <div class="grid-editorial" style="margin-top: 40px">
+        <a href="" class="card-editorial">
+          <h3>Em breve</h3>
+          <!--<h4 style="font-size: 0.8rem; color: #888; margin-top: 5px">
+            Ciclano de Tal
+          </h4>
+          <div class="detalhes">
+            <span>DATA: 21.09 / 16H</span>
+            <span>LOCAL: UFCAT / BLOCO 2 SALA 302</span>
+          </div>-->
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        DATA: <span id="data-atual"></span> / IDADE DO COSMOS: ~13.8 BILHÕES DE
+        ANOS / UFCAT
+      </p>
+      <script>
+        const hoje = new Date();
+        const dataFormatada = hoje.toLocaleDateString("pt-BR");
+        document.getElementById("data-atual").innerText = dataFormatada;
+      </script>
+    </footer>
+  </body>
+</html>

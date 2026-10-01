@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dead Physicist Society</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>DEAD PHYSICIST SOCIETY</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="seminarios.html">Seminários</a>
+        <a href="loja.html">Loja</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- O Banner Estilo Editorial -->
+      <a href="" style="display: block">
+        <section class="hero-section">
+          <div class="hero-date">
+            Próximo Evento: Em Breve
+          </div>
+          <h1>Dead Physicist Society</h1>
+          <p style="max-width: 600px; margin: 20px auto; line-height: 1.6">
+            Grupo de seminários de física, feito por físicos para todos!
+          </p>
+        </section>
+      </a>
+
+      <!-- Contato Redesenhado com o Trocadilho Físico -->
+      <div class="contato-wrapper">
+        <div class="contato-titulo">
+          <h2>Dúvidas e<br />Contato</h2>
+          <div
+            style="
+              font-family: &quot;Space Mono&quot;, monospace;
+              font-size: 0.75rem;
+              color: #888;
+              margin-top: 20px;
+              line-height: 1.8;
+            "
+          >
+            <span>PRAZO DE RESPOSTA:</span><br />
+            <span style="font-size: 0.65rem; display: block; margin-top: 5px"
+              >Assim que a expansão do universo permitir.</span
+            >
+          </div>
+        </div>
+
+        <div class="contato-form">
+          <input type="text" placeholder="Identificação (Nome)" />
+          <textarea placeholder="Mensagem ou Pergunta" rows="3"></textarea>
+          <button class="btn">Transmitir Mensagem</button>
+        </div>
+      </div>
+
+      <!-- Seção Extra: Citação em Destaque (Estilo Galeria) -->
+      <div
+        style="
+          max-width: 600px;
+          margin: 80px auto 0;
+          text-align: center;
+          border-top: 1px solid var(--line-color);
+          padding-top: 40px;
+        "
+      >
+        <p
+          style="
+            font-family: &quot;Playfair Display&quot;, serif;
+            font-size: 1.3rem;
+            font-style: italic;
+            color: #ccc;
+          "
+        >
+          "A coisa mais incompreensível sobre o mundo é que ele é
+          compreensível."
+        </p>
+        <span
+          style="
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            color: #777;
+            display: block;
+            margin-top: 10px;
+          "
+          >— ALBERT EINSTEIN</span
+        >
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        DATA: <span id="data-atual"></span> / IDADE DO COSMOS: ~13.8 BILHÕES DE
+        ANOS / UFCAT
+      </p>
+      <script>
+        const hoje = new Date();
+        const dataFormatada = hoje.toLocaleDateString("pt-BR");
+        document.getElementById("data-atual").innerText = dataFormatada;
+      </script>
+    </footer>
+  </body>
+</html>
